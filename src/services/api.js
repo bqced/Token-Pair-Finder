@@ -1,6 +1,6 @@
 // src/services/api.js
 
-const ETHERSCAN_API_KEY = 'K6Z7U56XQ8SCDA8Z3ZEJ1D3PBIJG6U7IYX';
+const ETHERSCAN_API_KEY = '';
 const ETHERSCAN_API_URL = 'https://api.etherscan.io/api';
 
 async function makeEtherscanRequest(url, retries = 3) {
